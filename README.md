@@ -16,7 +16,7 @@ The _microcolony_growth.csv_ file contains growth rate information, before and d
 
 The _oxoplate.csv_ file contains oxygen consumption rate data for yeast grown in varying carbon sources.
 
-## Jupyter notebook scripts
+## jupyter-notebook-files/
 These notebooks contain the analysis and rendered figures included in the manuscript and supplement. They are written in both Python 2.7 (for compatibility with the _FlowCytometryTools_ library for flow cytometry data) and Python 3 as noted.
 
 _cell_counts_min-N-C.ipynb_: a Python 3 notebook plotting the cumulative budding events in phototrophic yeast experiencing sudden carbon or nitrogen starvation
