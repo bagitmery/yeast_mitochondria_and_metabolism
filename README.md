@@ -12,9 +12,13 @@ This directory also contains _.csv_ files cataloging the proportion of recoverer
 
 The _cellcounts/_ subdirectory contains cell count data before and during sudden glucose and nitrogen starvation for protrophic yeast cells.
 
+The _glucose_uptake_rates.csv_ file contains glucose uptake rate information for wild-type and mutant strains growing in synthetic media containing high glucose.
+
 The _microcolony_growth.csv_ file contains growth rate information, before and during glucose starvation, for all analyzed single-cell lineages.
 
 The _oxoplate.csv_ file contains oxygen consumption rate data for yeast grown in varying carbon sources.
+
+The _oxoplate_mutants.csv_ file contains oxygen consumption rate data for wild-type and mutant strains growing in synthetic media containing high glucose.
 
 ## jupyter-notebook-files/
 These notebooks contain the analysis and rendered figures included in the manuscript and supplement. They are written in both Python 2.7 (for compatibility with the _FlowCytometryTools_ library for flow cytometry data) and Python 3 as noted.
@@ -28,6 +32,8 @@ _flow_cytometry_hxt3_2018_01_04_analysis.ipynb_: a Python 2.7 notebook analyzing
 _flow_cytometry_pH_analysis.ipynb_: a Python 2.7 notebook plotting cytosolic pH, mitochondrial pH, and mitochondrial potential dynamics in wild-type, _hxk2_, and _snf1_ strains, before and during acute glucose starvation
 
 _flow_cytometry_wild_yeast_fitnesses.ipynb_: a Python 2.7 notebook analyzing relative fitnesses of a panel of natural and laboratory yeasts during exponential growth and following sudden starvation. 
+
+_glucose_uptake_rates_all.ipynb_: a Python 3 notebook comparing rates of glucose uptake among wild-type and mutant yeast strains
 
 _metabolic_memory_analysis.ipynb_: a Python 2.7 notebook analyzing recovery probabilities as a function of time since respiratory growth and calculating switching rates between arrester and recoverer states
 
