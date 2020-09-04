@@ -35,13 +35,15 @@ _flow_cytometry_wild_yeast_fitnesses.ipynb_: a Python 2.7 notebook analyzing rel
 
 _glucose_uptake_rates_all.ipynb_: a Python 3 notebook comparing rates of glucose uptake among wild-type and mutant yeast strains
 
-_metabolic_memory_analysis.ipynb_: a Python 2.7 notebook analyzing recovery probabilities as a function of time since respiratory growth and calculating switching rates between arrester and recoverer states
+_metabolic_memory_analysis.ipynb_: a Python 2.7 notebook analyzing recovery probabilities as a function of time since respiratory growth and calculating switching rates between arrester and recoverer states.
 
 _microcolony_growth_rate_analysis.ipynb_: a Python 3 notebook analyzing the growth rate of single-lineage microcolonies in high glucose and its relationship to post-starvation growth capacity
 
 _mito_analysis.ipynb_: a Python 3 notebook analyzing mitochondrial morphology in a range of environmental fluctuations, carbon source conditions, and mutant strains. Contains analysis and rendering corresponding to all mitochondrial data presented.
 
-_mito_trajectories_2016_01_05_.ipynb: a Python 3 notebook analyzing and plotting mitochondrial morphological dynamics in a sample of the larger mitochondrial dataset, for illustrative and exploratory purposes.
+_mito_trajectories_2016_01_05.ipynb_: a Python 3 notebook analyzing and plotting mitochondrial morphological dynamics in a sample of the larger mitochondrial dataset, for illustrative and exploratory purposes.
+
+_oxygen_consumption_analysis.ipynb_: a Python 3 notebook analyzing oxygen consumption rates in wild-type and mutant strains growing in the presence of high glucose. See _mito_analysis.ipynb_ for oxygen consumption data collected during growth on alternative carbon sources.
 
 _rate_switching_analysis.ipynb_: a Python 3 notebook analyzing data on cells’ birth arrester/recoverer phenotypes and whether they have undergone phenotypic switches within a given observation window. This code calculates the phenotypic switching rates in both directions from microscopy data collected from cells suddenly starved within a microfluidics setup.
 
